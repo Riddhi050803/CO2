@@ -1,0 +1,131 @@
+.calculator-container{
+  width: 100%;
+  height: 50rem;
+  position: relative;
+  background: #065B3C;
+} 
+#calculator-img{
+  width: 100%;
+  height:15rem;
+  background-image: url(Assets/image8.png);
+}
+#calculator-mainheading{
+  width: 100%; 
+  text-align: center;
+  padding-top:4rem;
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+.calculator-body{
+  margin-top:6rem;
+  height:65.7rem;
+  display:flex;
+  background-color:#065B3C;
+}
+
+#calculator-left{
+  margin-top: 2rem;
+  margin-left: 9rem;
+  position:relative;
+  height:62rem;
+  width: 25%;
+  background-color:  #176841;;
+  border-radius: 15px;
+}
+.calculator-right{
+  margin-top: 2rem;
+  margin-left: 5rem;
+  position:relative;
+  height:58rem;
+  width: 55%;
+  background-color: #065B3C;
+}
+#cont1{
+  border-radius: 10px;
+  background-color: #176841;
+  margin-left: 0rem;
+  position:relative;
+  height:72%;
+  width: 100%;
+}
+#cont2{
+  border-radius: 10px;
+  top:1.4rem;
+  background-color: #176841;
+  margin-left: 0rem;
+  position:relative;
+  height:33%;
+  width: 100%;
+}
+#calculator-bottom{
+  background-color: #065B3C;
+  height:20rem;
+}
+#calculator-bottom-box{
+  background-color: #176841;
+  height:18rem;
+  border-radius: 10px;
+  margin-left:9rem;
+  margin-right: 5rem;
+}
+.calculator-left-box{
+  width: 80%;
+  height: 10%;
+  background: rgba(94, 140, 97, 0.86);
+  border-radius: 10px;
+  margin:5%;
+  margin-left:2.5rem;
+  color: white;
+  font-weight: 500;
+  font-size: medium;
+} 
+#calculator-left-box1{
+  margin-top:2rem;
+  align-items: center;
+}
+.calculator-headings{
+  text-align: center;
+  padding:20px;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.calculator-text{
+  text-align: center;
+  color:#F5DBDE;
+  font-size: larger;
+  margin:auto 70px 10px 70px;
+}
+
+.questionnaire {
+  flex: 0.1;
+  padding: 0px 50px 50px 50px;
+  font-size: 1rem;
+  align-items: center;
+}
+
+.questionnaire label,
+.questionnaire input,
+.questionnaire select {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.questionnaire button {
+  margin-top: 10px;
+  padding: 8px 32px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-left:45%;
+
+}
+#questionnaire{
+  margin-top: 3rem;
+  font-size: large;
+}
+
+ 
