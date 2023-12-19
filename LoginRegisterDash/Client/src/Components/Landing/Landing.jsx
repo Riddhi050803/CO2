@@ -29,8 +29,8 @@ const Landing = () => {
               </div>
               <div className="header">
                 <div className="nav-bar">
-                  <Link to="/" className="nav-link">About</Link>
-                  <Link to="/pricing" className="nav-link">Pricing</Link>
+                  <a href="index.html" target="_blank" className="nav-link">About</a>
+                  <a href="#" className="nav-link">Pricing</a>
                   <Link to="/register" className="nav-link">Sign Up</Link>
                   <Link to="/login" className="nav-link">Login</Link>
                 </div>
@@ -43,10 +43,12 @@ const Landing = () => {
 
           {/* Landing Body */}
           <div className="landing-body">
+            <div className="landing-left-container">
             <img className="landing-img1" src={landing1} alt="Landing 1" />
             <img className="landing-img2" src={landing2} alt="Landing 2" />
-
+            </div>
             {/* About Section 1 */}
+            <div className="landing-right-container">
             <div className="about1">
               <p>
                 At CO2 Prints, we&apos;re on a mission to drive sustainability through innovation.
@@ -60,6 +62,7 @@ const Landing = () => {
               <p>Aggregate and analyze diverse data sources, from energy bills to supply chain records, in a unified platform.</p>
               <p>Stay ahead with real-time monitoring of key metrics and receive alerts for significant changes.</p>
               <p>Compare your carbon footprint against industry standards and peers, gaining valuable insights.</p>
+              </div>
             </div>
           </div>
         </div>
