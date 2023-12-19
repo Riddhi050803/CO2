@@ -1,24 +1,24 @@
-
-.landing-container{
-    padding: 0;
-    margin: 0;
-    font-family: 'Open Sans', sans-serif;
-    background-color: #065B3C;
-    flex-direction: column;
-    min-height: 65rem;
-}   
-.landing-content{
-    padding:0 ;
-    margin:0 ;
-    overflow-x: hidden;
-
+.landing-container {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #065B3C;
+  flex-direction: column;
+  min-height: 65rem;
 }
 
-.logo-container{
-    max-width: 16%;
-    left: 66px; 
-    position: absolute
+.landing-content {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
 }
+
+.logo-container {
+  max-width: 16%;
+  left: 2%;
+  position: absolute;
+}
+
 
 .logo-container .nav-logo {
     width: 100%;  
@@ -40,22 +40,22 @@
 .nav-bar {
     display: flex;
     align-items: center;
-    height: 30px; 
+    height: 3rem; 
     left: 60%; 
-    top: 10px; 
+    top: 1rem; 
     position: absolute;
     padding: 1.8rem;
 }
 
 .nav-link {
-    padding: 10px;
+    padding: 1rem;
     font-family: Poppins;
     font-style: normal;
     text-decoration: none;
-    margin-right: 10px;
+    margin-right: 1rem;
     position: relative;
     top: 0px; 
-    height: 30px;
+    height: 3rem;
     text-align: center; 
     color: #F5DBDE; 
     font-size: 1.5rem; 
@@ -70,63 +70,82 @@
 }
 
 .landing-body {
-    width: 100%; 
-    position: relative;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap; /* Added to allow wrapping */
+  justify-content: space-around; /* Adjust as needed */
 }
 
+.landing-left-container,
+.landing-right-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  max-width: 48%; /* Adjust as needed */
+}
 .landing-body .about1{ 
-    top: 140px!important;
-    height: 200px; 
-    top: 190px;
+    top: 12rem;
+    height: 13rem; 
 }
 
 .landing-body .about2{
-    height: 330px;
-    top: 420px!important;
+    height: 23rem;
+    top: 12rem;
 }
 
-.landing-body .about1, .about2 {
-    width: 40%;  
-    left: 55%; 
-    position:absolute;
-    color:white;
+.landing-body .about1,
+.landing-body .about2 {
+    width: 80%; /* Adjust as needed */
+    left: 0.9%; /* Adjust as needed */
+    position: relative;
+    color: white;
     font-family: Poppins;
-    font-size: 16px;
+    font-size: 1.2rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    padding-bottom: 25px;
-    padding-left: 40px;
-    padding-right: 40px;
-    position: absolute;
-    background: rgb(96, 201, 131, 0.15);
-    box-shadow: 4px 4px 4px rgba(0.25, 0.25, 0.25, 0.25); 
+    padding: 2rem;
+    background: rgba(96, 201, 131, 0.15);
+    box-shadow: 4px 4px 4px rgba(0.25, 0.25, 0.25, 0.25);
     border-radius: 18px;
     transition: background 0.3s ease, transform 0.3s ease;
+    margin: 1rem auto;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    max-width: 100%; 
+    box-sizing: border-box; 
 }
 .landing-body p{
-    margin-bottom: 40px;
-    margin-top: 50px;
+    margin-bottom: 4rem;
+    margin-top: 1rem;
+    
 }
 .landing-body .about1:hover, .about2:hover{
     background: rgb(96, 201, 131, 0.25);
     transform: scale(1.01);
 }
 .landing-img1{
-    height: 400px;  
-    top: 80px; 
+    height:60%;
+    top: 4rem; 
+    width:50%
 }
 
 .landing-img2 {
-    top: 500px; 
-    height: 296px; 
+    top: 5rem; 
+    height: 100%;  
+   margin-right:50rem;
 }
-.landing-img1, .landing-img2{
-    left: 80px;
-    width: 649px; 
-    position: absolute; 
+.landing-img1,
+.landing-img2 {
+    width: 90%; /* Adjust as needed */
+    max-width: 100%; /* Ensures images don't overflow */
+    height: auto; /* Retains aspect ratio */
+    margin: 0rem auto; /* Adjust as needed */
     border-radius: 18px;
     transition: transform 0.3s ease;
+    position: relative;
+    left:4rem;
 }
 .landing-img1:hover, .landing-img2:hover{
     transform: scale(1.01);
