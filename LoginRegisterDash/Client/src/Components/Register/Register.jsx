@@ -47,7 +47,7 @@ const Register = () => {
 
         <div className="footerDiv flex">
           <span className='text'>Have an account?</span>
-          <Link to={'/'}> 
+          <Link to={'/login'}> 
           <button className='btn'>Login</button>
           </Link>
         </div>
