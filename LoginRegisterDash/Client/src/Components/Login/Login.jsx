@@ -34,7 +34,7 @@ const Login = () => {
         navigateTo('/')
 
       }else{
-        navigateTo('/dashboard')
+        navigateTo('/Dashboard')
       }
     }).catch((error) => {
       console.error("Error during login:", error);

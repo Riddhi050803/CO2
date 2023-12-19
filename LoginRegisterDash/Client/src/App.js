@@ -1,4 +1,5 @@
 import './App.css'
+import Landing from './Components/Landing/Landing.jsx'
 import Dashboard from './Components/Dashboard/Dashboard.jsx'
 import Login from './Components/Login/Login.jsx'
 import Register from './Components/Register/Register.jsx'
@@ -13,18 +14,23 @@ import{
 
 const router = createBrowserRouter([
   {
-  path: '/',
-  element: <div><Login/></div>
+    path: '/',
+    element: <div><Landing /></div> 
+  },
+  {
+    path: '/login',
+    element: <div><Login /></div>
   },
   {
     path: '/register',
-    element: <div><Register/></div>
+    element: <div><Register /></div>
   },
   {
-      path: '/dashboard',
-      element: <div><Dashboard/></div>
+    path: '/dashboard',
+    element: <div><Dashboard /></div>
   }
-])
+]);
+
 
 
 function App() {
