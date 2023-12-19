@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import {useState} from 'react'
 import './Login.css'
 import '../../App.css'
 import Axios from 'axios'
@@ -57,7 +57,7 @@ const Login = () => {
         </div>
 
         <div className="footerDiv flex">
-          <span className='text'>Don't have an account?</span>
+          <span className='text'>Don&apos;t have an account?</span>
           <Link to={'/register'}> 
           <button className='btn'>Sign up</button>
           </Link>

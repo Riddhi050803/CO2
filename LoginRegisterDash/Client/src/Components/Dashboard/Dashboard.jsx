@@ -1,5 +1,5 @@
-import React from 'react';
-
+// import React from 'react';
+import logo from '../../Assets/logo.png';
 
 const YearlyAnalysisChart = () => {
   return (

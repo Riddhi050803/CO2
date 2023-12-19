@@ -1,7 +1,7 @@
 import './App.css'
-import Dashboard from './Components/Dashboard/Dashboard'
-import Login from './Components/Login/Login'
-import Register from './Components/Register/Register'
+import Dashboard from './Components/Dashboard/Dashboard.jsx'
+import Login from './Components/Login/Login.jsx'
+import Register from './Components/Register/Register.jsx'
 
 
 import{
