@@ -29,8 +29,8 @@ const Landing = () => {
               </div>
               <div className="header">
                 <div className="nav-bar">
-                  <a href="index.html" target="_blank" className="nav-link">About</a>
-                  <a href="#" className="nav-link">Pricing</a>
+                  <Link to="/" className="nav-link">About</Link>
+                  <Link to="/pricing" className="nav-link">Pricing</Link>
                   <Link to="/register" className="nav-link">Sign Up</Link>
                   <Link to="/login" className="nav-link">Login</Link>
                 </div>
